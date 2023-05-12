@@ -1,0 +1,35 @@
+* {
+font-family: Outfit;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+p.normal{
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+
+p.bold{
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+div.central_block{
+    margin: 0 auto; /*centers div horizontally(finally)*/
+
+    width: 295px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+div.central_block #QR{
+    width: 285px;
+    height: 285px;
+    border-radius: 10px;
+}
