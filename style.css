@@ -6,34 +6,34 @@ body {
     background-color: hsl(212, 45%, 89%);
 }
 
-p.normal{
+p.normal{ /*settings of the default text*/
     font-size: 15px;
     font-weight: 400;
     color: hsl(220, 15%, 55%);
 }
 
-p.bold{
+p.bold{ /*settings of the bold text*/
     font-size: 20px;
     font-weight: 700;
     color: hsl(218, 44%, 22%);
 }
 
-div.central_block{
+div.central_block{/*centers the div and adds background and borders to it*/
     margin: 70px auto; /*centers div (finally)*/
 
     width: 295px;
     padding: 10px;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 20px; /*makes border round*/
     background-color: hsl(0, 0%, 100%);
 }
 
-div.central_block #QR{
+div.central_block #QR{ /*sets qr image size and borders*/
     width: 285px;
     height: 285px;
     border-radius: 10px;
 }
 
-div.attribution{
+div.attribution{ /*centers  credits*/
     text-align: center;
 }
