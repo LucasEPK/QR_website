@@ -19,7 +19,7 @@ p.bold{
 }
 
 div.central_block{
-    margin: 0 auto; /*centers div horizontally(finally)*/
+    margin: 70px auto; /*centers div (finally)*/
 
     width: 295px;
     padding: 10px;
@@ -32,4 +32,8 @@ div.central_block #QR{
     width: 285px;
     height: 285px;
     border-radius: 10px;
+}
+
+.attribution{
+    text-align: center;
 }
